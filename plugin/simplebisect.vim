@@ -22,8 +22,8 @@ if !exists("g:simple_bisect_no_mappings") || !g:simple_bisect_no_mappings
 	imap <C-Right> <C-o><Plug>(simplebisect-right)
 endif
 
-noremap <Plug>(simplebisect-up)    :<C-u>call simplebisect#BisectVertical(simplebisect#UP)<CR>
-noremap <Plug>(simplebisect-down)  :<C-u>call simplebisect#BisectVertical(simplebisect#DOWN)<CR>
-noremap <Plug>(simplebisect-left)  :<C-u>call simplebisect#BisectHorizontal(simplebisect#LEFT)<CR>
-noremap <Plug>(simplebisect-right) :<C-u>call simplebisect#BisectHorizontal(simplebisect#RIGHT)<CR>
+noremap <silent> <Plug>(simplebisect-up)    :<C-u>call simplebisect#BisectVertical(simplebisect#UP)<CR>
+noremap <silent> <Plug>(simplebisect-down)  :<C-u>call simplebisect#BisectVertical(simplebisect#DOWN)<CR>
+noremap <silent> <Plug>(simplebisect-left)  :<C-u>call simplebisect#BisectHorizontal(simplebisect#LEFT)<CR>
+noremap <silent> <Plug>(simplebisect-right) :<C-u>call simplebisect#BisectHorizontal(simplebisect#RIGHT)<CR>
 
