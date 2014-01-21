@@ -39,5 +39,4 @@ function! simplebisect#Bisect(destination, pos_type)
 	let desired = current_row + (a:destination - current_row) / 2
 	let current_pos[a:pos_type] = desired
 	call setpos('.', current_pos)
-	echo current_row a:destination
 endf
